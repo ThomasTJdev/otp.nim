@@ -1,12 +1,13 @@
-version       = "0.1.4"
+version       = "0.1.5"
 author        = "Huy Doan"
 description   = "One Time Password library for Nim"
 license       = "MIT"
 
 when NimMajor >= 2:
-  Requires: "nim >= 0.10.0"
-  Requires: "hmac >= 0.3.0"
+  requires "nim >= 0.10.0"
+  requires "hmac >= 0.3.0"
 else:
-  Requires: "nim >= 1.6.10"
-  Requires: "hmac == 0.2.0"
-Requires: "base32"
+  requires "nim >= 1.6.10"
+  requires "hmac == 0.2.0"
+
+requires "base32"
