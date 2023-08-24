@@ -1,11 +1,9 @@
-[Package]
 name          = "OTP"
 version       = "0.1.2"
 author        = "Huy Doan"
 description   = "One Time Password library for Nim"
 license       = "MIT"
 
-[Deps]
 when NimMajor >= 2:
   Requires: "nim >= 0.10.0"
   Requires: "hmac >= 0.3.0"
