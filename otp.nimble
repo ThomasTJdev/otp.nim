@@ -1,5 +1,4 @@
-name          = "OTP"
-version       = "0.1.2"
+version       = "0.1.4"
 author        = "Huy Doan"
 description   = "One Time Password library for Nim"
 license       = "MIT"
